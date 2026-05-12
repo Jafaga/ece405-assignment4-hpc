@@ -1,0 +1,3 @@
+rank,world_size,backend,device,implementation,model_size,context_length,global_batch_size,local_batch_size,precision,bucket_size_mb,warmup_steps,measure_steps,mean_step_seconds,std_step_seconds,mean_sync_seconds,std_sync_seconds,sync_fraction,peak_memory_mb,last_loss
+0,2,gloo,cpu,overlap_individual,small,8,2,1,fp32,,1,1,0.6063138749959762,0.0,0.03962654199858662,0.0,0.06535648223265482,0.0,6.885715484619141
+1,2,gloo,cpu,overlap_individual,small,8,2,1,fp32,,1,1,0.6245342499969411,0.0,0.03402199999982258,0.0,0.05447579536268703,0.0,6.746466159820557
