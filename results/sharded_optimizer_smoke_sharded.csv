@@ -1,0 +1,3 @@
+rank,world_size,backend,device,optimizer_kind,model_size,context_length,global_batch_size,local_batch_size,precision,bucket_size_mb,after_model_init_mb,before_optimizer_step_mb,after_optimizer_step_mb,first_step_peak_mb,timing_peak_mb,warmup_steps,measure_steps,mean_step_seconds,std_step_seconds,last_loss
+0,2,gloo,cpu,sharded,small,8,2,1,fp32,100.0,0.0,0.0,0.0,0.0,0.0,1,1,0.5973240000021178,0.0,5.05090856552124
+1,2,gloo,cpu,sharded,small,8,2,1,fp32,100.0,0.0,0.0,0.0,0.0,0.0,1,1,0.5974632500001462,0.0,5.233073711395264
